@@ -12,10 +12,10 @@ pathing in querymodpath and requiredfiles to where the mods are stored for query
 stored on your computer example from file below:
 
 
-# line:27       queryModPath: () => './SteamLibrary/steamapps/common/Coral Island/ProjectCoral/Content/Paks/~mods',
-#               logo: 'CoralIsland.jpeg',
-#               executable: () => 'ProjectCoral.exe',
-#               requiredFiles: [
-#                   'ProjectCoral.exe',
-# line:32           './SteamLibrary/steamapps/common/Coral Island/ProjectCoral/Binaries/Win64/ProjectCoral-Wind64-Shipping.exe',
-#               ],
+line:27       queryModPath: () => './SteamLibrary/steamapps/common/Coral Island/ProjectCoral/Content/Paks/~mods',
+              logo: 'CoralIsland.jpeg',
+             executable: () => 'ProjectCoral.exe',
+               requiredFiles: [
+                   'ProjectCoral.exe',
+ line:32           './SteamLibrary/steamapps/common/Coral Island/ProjectCoral/Binaries/Win64/ProjectCoral-Wind64-Shipping.exe',
+               ],
